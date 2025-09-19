@@ -1,0 +1,90 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+  /* Fresh & Hopeful (Green/Blue) Palette */
+  --background: 48 21% 97%;           /* #F5F5F5 */
+  --foreground: 222 84% 13%;          /* #222222 */
+
+  --card: 48 21% 97%;                 /* #F5F5F5 */
+  --card-foreground: 222 84% 13%;     /* #222222 */
+
+  --popover: 48 21% 97%;              /* #F5F5F5 */
+  --popover-foreground: 222 84% 13%;  /* #222222 */
+
+  --primary: 146 50% 36%;             /* #2E8B57 (Sea Green) */
+  --primary-foreground: 48 21% 97%;   /* #F5F5F5 */
+
+  --secondary: 197 89% 62%;           /* #4FC3F7 (Sky Blue) */
+  --secondary-foreground: 222 84% 13%;/* #222222 */
+
+  --muted: 197 89% 90%;               /* Light Sky Blue */
+  --muted-foreground: 197 89% 30%;    /* Muted Blue */
+
+  --accent: 51 100% 50%;              /* #FFD600 (Bright Yellow) */
+  --accent-foreground: 222 84% 13%;   /* #222222 */
+
+  --destructive: 0 84% 60%;           /* Red (unchanged) */
+  --destructive-foreground: 48 21% 97%;
+
+  --border: 197 89% 90%;              /* Light Sky Blue */
+  --input: 197 89% 90%;               /* Light Sky Blue */
+  --ring: 146 50% 36%;                /* #2E8B57 */
+
+  --radius: 0.75rem;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-edge-cap {
+    font-feature-settings: "cv11", "ss01";
+    letter-spacing: -0.01em;
+  }
+  
+  .section-padding {
+    @apply py-24 px-6 md:px-10 lg:px-24;
+  }
+
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md shadow-sm border border-gray-100/20 rounded-2xl;
+  }
+  
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+}
+
+/* Smooth scrolling for the entire page */
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* Remove default button styles */
+button {
+  @apply focus-ring;
+}
+
+/* Base link styles */
+a {
+  @apply focus-ring;
+}
