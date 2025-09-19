@@ -1,5 +1,6 @@
 
 import { useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/next";
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Mission from '@/components/Mission';
@@ -45,7 +46,8 @@ const Index = () => {
       <Volunteers />
       <InfiniteCarousel />
       <Donation />
-      <Footer />
+  <Footer />
+  <Analytics />
     </main>
   );
 };
