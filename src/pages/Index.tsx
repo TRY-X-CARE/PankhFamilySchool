@@ -43,10 +43,13 @@ const Index = () => {
       <Mission />
       <About />
       <Volunteers />
+      <InfiniteCarousel />
       <Donation />
       <Footer />
     </main>
   );
 };
+
+import InfiniteCarousel from '@/components/InfiniteCarousel';
 
 export default Index;

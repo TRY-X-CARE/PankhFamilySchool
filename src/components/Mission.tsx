@@ -32,7 +32,7 @@ const Mission = () => {
           
           <div className="relative rounded-2xl overflow-hidden h-[400px] md:h-auto">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-blue-400/20 mix-blend-multiply" />
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')] bg-cover bg-center" />
+            <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302670/WhatsApp_Image_2025-05-28_at_3.42.44_PM_2_jly6xi.jpg')] bg-cover bg-center" />
           </div>
         </div>
       </div>

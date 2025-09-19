@@ -13,11 +13,11 @@ const Hero = () => {
       {/* Background Image */}
       <div 
         className={`absolute inset-0 transition-opacity duration-1000 ${
-          loaded ? 'opacity-100' : 'opacity-0'
+          loaded ? 'opacity-90' : 'opacity-1'
         }`}
       >
         <img
-          src="\images\banner.jpg"
+          src="https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302665/WhatsApp_Image_2025-05-28_at_3.40.53_PM_vdbeup.jpg"
           alt="Pankh A Family School"
           className="w-full h-full object-cover"
         />

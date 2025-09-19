@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Header from '@/components/Header';
 
 
 const categories = [
@@ -78,7 +79,11 @@ const Gallery: React.FC = () => {
   const current = categories.find((cat) => cat.key === selected);
 
   return (
-    <section className="min-h-screen bg-background py-16 px-4">
+    <>
+  <Header />
+  {/* Translucent black strip under navbar */}
+  <div className="w-full h-20 bg-black/40 backdrop-blur-sm z-40 relative" />
+      <section className="min-h-screen bg-background py-16 px-4">
       <h2 className="text-3xl font-bold text-center mb-10 text-primary">Gallery</h2>
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         {categories.map((cat) => (
@@ -108,7 +113,8 @@ const Gallery: React.FC = () => {
           ))}
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 };
 
