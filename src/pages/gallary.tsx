@@ -9,9 +9,12 @@ const categories = [
     name: 'Education & Skill Development',
     key: 'education',
     images: [
-      'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0015_zl341s.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0020_ealqxe.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0019_bpzbi6.jpg',
+     'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0016_t1bkuf.jpg',
+     'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0021_iorvma.jpg',
+     'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302671/WhatsApp_Image_2025-05-28_at_3.41.57_PM_1_luqvsr.jpg' ,
     ],
   },
   {
@@ -36,9 +39,9 @@ const categories = [
     name: 'Environmental Conservation',
     key: 'environment',
     images: [
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302668/WhatsApp_Image_2025-05-28_at_3.40.26_PM_1_oaze3r.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302664/WhatsApp_Image_2025-05-28_at_3.40.25_PM_b1rr5a.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302664/WhatsApp_Image_2025-05-28_at_3.40.25_PM_1_v4loqr.jpg',
     ],
   },
   {
