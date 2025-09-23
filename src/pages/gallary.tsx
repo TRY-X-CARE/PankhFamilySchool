@@ -114,7 +114,7 @@ const categories = [
       '../assets/12.jpeg',
       '../assets/109.jpeg',
       '../assets/110.jpeg',
-      '../assets/111.jpeg;',
+      '../assets/111.jpeg',
       '../assets/112.jpeg',
       '../assets/113.jpeg',
       '../assets/114.jpeg',
