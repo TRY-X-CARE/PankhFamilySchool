@@ -62,7 +62,7 @@ const categories = [
     ],
   },
   {
-    name: 'Women & Child Welfare',
+    name: 'Child Welfare',
     key: 'women',
     images: [
       'assets/24.jpeg',
