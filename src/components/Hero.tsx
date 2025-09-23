@@ -17,7 +17,7 @@ const Hero = () => {
         }`}
       >
         <img
-          src="https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302665/WhatsApp_Image_2025-05-28_at_3.40.53_PM_vdbeup.jpg"
+          src="../assets/13.jpeg"
           alt="Pankh A Family School"
           className="w-full h-full object-cover"
         />
