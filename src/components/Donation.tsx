@@ -8,10 +8,9 @@ const Donation = () => {
   
   const bankDetails = {
     accountName: "Pankh A Family School",
-    accountNumber: "1234567890",
-    bankName: "Universal Bank",
-    ifscCode: "UNIV0001234",
-    swiftCode: "UNIVABCD"
+    accountNumber: "7802210999636",
+    bankName: "Sarva Haryana Gramin Bank",
+    ifscCode: "PUNBOEGB001",
   };
   
   const copyBankDetails = () => {

@@ -90,29 +90,35 @@ const About = () => {
             ];
             const catKey = categoryKeys[index];
             return (
-              <button
+              <div
                 key={index}
-                type="button"
-                className={`p-8 flex flex-col h-full rounded-xl shadow-md ${item.bg} transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 hover:bg-accent/30 active:scale-[0.98]`}
+                className={`p-8 flex flex-col h-full rounded-xl shadow-md ${item.bg} transition-colors`}
                 tabIndex={0}
-                onClick={() => navigate(`/gallary?category=${catKey}`)}
               >
-              <div className="mb-4 bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center">
-                {item.icon}
+                <div className="mb-4 bg-primary/10 w-12 h-12 rounded-full flex items-center justify-center">
+                  {item.icon}
+                </div>
+
+                <AnimatedText
+                  text={item.title}
+                  className="text-xl font-semibold mb-3 text-left"
+                  delay={item.delay}
+                />
+
+                <AnimatedText
+                  text={item.description}
+                  className="text-gray-600 text-left"
+                  delay={item.delay + 300}
+                />
+
+                <button
+                  type="button"
+                  className="mt-6 self-start px-5 py-2 rounded-full font-medium border border-primary bg-primary text-white transition-colors duration-200 hover:bg-primary/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                  onClick={() => navigate(`/gallary?category=${catKey}`)}
+                >
+                  Show Images
+                </button>
               </div>
-
-              <AnimatedText
-                text={item.title}
-                className="text-xl font-semibold mb-3 text-left"
-                delay={item.delay}
-              />
-
-              <AnimatedText
-                text={item.description}
-                className="text-gray-600 text-left"
-                delay={item.delay + 300}
-              />
-              </button>
             );
           })}
         </div>

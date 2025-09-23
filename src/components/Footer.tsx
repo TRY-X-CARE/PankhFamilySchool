@@ -46,7 +46,7 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <p className="text-gray-600">
-                
+                Maharaja Aggrasain Society Park, Opp. Ankhir Chowk Petrol Pump, NIT Faridabad (Hr.) - 121001
                 </p>
               </div>
               
