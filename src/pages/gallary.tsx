@@ -15,6 +15,9 @@ const categories = [
      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0016_t1bkuf.jpg',
      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758609867/IMG-20250923-WA0021_iorvma.jpg',
      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302671/WhatsApp_Image_2025-05-28_at_3.41.57_PM_1_luqvsr.jpg' ,
+     'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302672/WhatsApp_Image_2025-05-28_at_3.41.33_PM_3_klek5n.jpg',
+     'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302671/WhatsApp_Image_2025-05-28_at_3.41.33_PM_ewimfm.jpg',
+
     ],
   },
   {
@@ -30,7 +33,7 @@ const categories = [
     name: 'Women & Child Welfare',
     key: 'women',
     images: [
-      'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302669/WhatsApp_Image_2025-05-28_at_3.42.44_PM_3_wok5zm.jpg',
       'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80',
       'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
     ],
@@ -39,9 +42,11 @@ const categories = [
     name: 'Environmental Conservation',
     key: 'environment',
     images: [
-      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302668/WhatsApp_Image_2025-05-28_at_3.40.26_PM_1_oaze3r.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302660/WhatsApp_Image_2025-05-28_at_3.40.25_PM_2_vvwiwp.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302662/WhatsApp_Image_2025-05-28_at_3.40.26_PM_y4xtxe.jpg',
       'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302664/WhatsApp_Image_2025-05-28_at_3.40.25_PM_b1rr5a.jpg',
       'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302664/WhatsApp_Image_2025-05-28_at_3.40.25_PM_1_v4loqr.jpg',
+      'https://res.cloudinary.com/dgjsk6itb/image/upload/v1758302668/WhatsApp_Image_2025-05-28_at_3.40.26_PM_1_oaze3r.jpg',
     ],
   },
   {
