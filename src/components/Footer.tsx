@@ -67,18 +67,6 @@ const Footer = () => {
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             © {currentYear} Pankh A Family School. All rights reserved.
           </p>
-          
-          <div className="flex gap-6">
-            {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="text-sm text-gray-500 hover:text-primary transition-colors"
-              >
-                {item}
-              </a>
-            ))}
-          </div>
         </div>
       </div>
     </footer>

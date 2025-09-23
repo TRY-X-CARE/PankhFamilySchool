@@ -33,12 +33,16 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <h1 className={cn(
-            "text-xl font-medium tracking-tight transition-colors duration-300",
-            scrolled ? "text-gray-900" : "text-white"
-          )}>
+          <button
+            onClick={() => navigate('/')}
+            className={cn(
+              "text-xl font-medium tracking-tight transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded",
+              scrolled ? "text-gray-900" : "text-white"
+            )}
+            aria-label="Go to homepage"
+          >
             <span className="font-bold">Pankh</span> A Family School
-          </h1>
+          </button>
         </div>
 
         {/* Navigation */}
